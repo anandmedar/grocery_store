@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+section {
+  padding: 20px;
+}
+
+#item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: calc(30% - 40px);
+  text-align: center;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
